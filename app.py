@@ -80,4 +80,4 @@ if st.button("🔍 பரிந்துரை பெறு / Get Recommendation
 
 st.markdown("---")
 st.markdown("🔬 <i>AgroMAT is designed by integrating Machine Learning with Materials Science, focusing on farmers' practical problems.</i>", unsafe_allow_html=True)
-st.markdown("🌱 <b>Developed with ❤️ by Mamkutty (Kongu Naadu)</b>", unsafe_allow_html=True)
+st.markdown("🌱 <b>Developed by Kowshic K T </b>", unsafe_allow_html=True)

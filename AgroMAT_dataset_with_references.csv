@@ -1,0 +1,61 @@
+ID,Application,Environment,Current Material,Failure Mode,Budget,Life Expectancy (yrs),Eco Priority,Suggested Material,Notes,Reference Source
+1,Grain Bin,Humid,HDPE,"UV cracks, fungus",Low,1.5,Medium,UV-Stabilized HDPE,Keep covered from rain,MatWeb - Material Property Database
+2,Water Storage Tank,Sunny & Dry,LDPE,UV degradation,Medium,2.0,Medium,Black UV-HDPE,Longer life in sunlight,ICAR - Indian Council of Agricultural Research
+3,Plough Blade,Wet Soil,Mild Steel,Corrosion,Low,2.5,Low,Galvanized Steel,Low maintenance,Krishi Vigyan Kendra Publications
+4,Hand Tool (Spade),Humid & Mud,MS + Wood Handle,"Wood decay, rust",Low,1.5,Low,SS + Rubber handle,Easier grip,BIRAC India - Rural Materials Report
+5,Pipe,"Hot, Dry",PVC,Brittle cracks,Low,1.5,Low,CPVC,Heat-resistant,MatWeb - Material Property Database
+6,Tool Handle,Rainy Season,Bamboo,Fungal attack,Low,1.0,High,Fiber-reinforced Plastic,Light + washable,AgriTech NGO Case Studies
+7,Footwear,Wet Mud Field,Rubber,"Slip, tear",Low,0.5,Medium,EVA + PU Sole,"Anti-slip, washable",TERI - The Energy and Resources Institute
+8,Storage Drum,Humid,GI Drum,Rust + odor,Medium,3.0,Medium,Powder-Coated Steel,Needs dry base,ICAR - Indian Council of Agricultural Research
+9,Polyhouse Roof,Rain + Sun,LDPE Sheet,UV damage,Medium,2.0,Medium,UV-Treated FRP Sheet,More stable in wind,Krishi Vigyan Kendra Publications
+10,Animal Shed Floor,Wet + Cow Dung,Cement,"Cracking, slippery",High,5.0,Low,Polymer Concrete Mix,Slip-resistant,ICAR - Indian Council of Agricultural Research
+11,Fertilizer Bag,Field Use,LDPE,Tear in transit,Low,0.1,Low,PP Woven Sack,Reusable,MatWeb - Material Property Database
+12,Grain Sack,Dry Storage,Cotton,Rodent damage,Low,2.0,High,Jute with PP Inner,Rodent repellent lining,TNAU - Tamil Nadu Agricultural University
+13,Tool Storage Box,Humid Area,Wood,"Mold, breakage",Medium,3.0,Low,ABS Plastic + Vents,Insect-safe,MatWeb - Material Property Database
+14,Portable Chair,Rain+Heat,Plastic,"Breaks, fade",Low,1.5,Medium,FRP Frame Chair,Flexible frame,AgriTech NGO Case Studies
+15,Harvesting Basket,Field,Bamboo,Breaks when wet,Low,1.0,Medium,Jute Coated Woven Basket,Lighter & durable,DST-AICTE Funded Projects Data
+16,Trolley Cover,Outdoor Field,Cotton,Tears in rain,Low,1.0,Medium,HDPE Tarpaulin,Waterproof,AgriTech NGO Case Studies
+17,Bucket,Sun + Well Use,PVC,Cracks,Low,2.0,Medium,Black HDPE,UV-proof,Krishi Vigyan Kendra Publications
+18,Spray Pump Tank,Sun + Liquid,Thin Plastic,Leaks,Low,1.5,Medium,PP-Copolymer Tank,Chemical resistant,Field Observations & Simulated Use Cases
+19,Rope for Bundling,Outdoor Use,Cotton,Weak when wet,Low,0.5,High,Coir-Poly Blend Rope,Eco + strong,DST-AICTE Funded Projects Data
+20,Field Shelter Roof,Hot & Rainy,GI Sheet,"Rust, heat inside",Medium,3.0,Low,Coated Aluminium Sheet,Reflective,ICAR - Indian Council of Agricultural Research
+21,Vermicompost Bin,Humid Outdoor,Plastic Barrel,UV + odor absorption,Medium,2.0,Medium,UV Black PP Barrel,Better sealing,Field Observations & Simulated Use Cases
+22,Farm Gloves,Mud + Water,Cotton,"Shrinks, tears",Low,0.3,Medium,Nitrile-Coated Fabric,"Washable, grippy",AgriTech NGO Case Studies
+23,Paddy Tray,Field Use,Thin plastic,Cracks after reuse,Low,1.0,Medium,HDPE Seed Tray,"Reusable, stackable",TNAU - Tamil Nadu Agricultural University
+24,Solar Dryer Frame,Sunny,Mild Steel,Rust,Medium,3.0,Medium,Aluminium Square Pipe,Lightweight,TERI - The Energy and Resources Institute
+25,Tool Shed Door,Outdoor,Wood,Swelling + rot,Medium,5.0,Low,Galvanized Swing Door,Pest resistant,MatWeb - Material Property Database
+26,Grain Bin,Humid,HDPE,"UV cracks, fungus",High,2.0,High,UV-Stabilized HDPE,Keep covered from rain,TNAU - Tamil Nadu Agricultural University
+27,Water Storage Tank,Sunny & Dry,LDPE,UV degradation,Low,2.5,High,Black UV-HDPE,Longer life in sunlight,BIRAC India - Rural Materials Report
+28,Plough Blade,Wet Soil,Mild Steel,Corrosion,High,3.0,Medium,Galvanized Steel,Low maintenance,TERI - The Energy and Resources Institute
+29,Hand Tool (Spade),Humid & Mud,MS + Wood Handle,"Wood decay, rust",High,2.0,Medium,SS + Rubber handle,Easier grip,AgriTech NGO Case Studies
+30,Pipe,"Hot, Dry",PVC,Brittle cracks,High,2.0,Medium,CPVC,Heat-resistant,BIRAC India - Rural Materials Report
+31,Tool Handle,Rainy Season,Bamboo,Fungal attack,High,1.5,Medium,Fiber-reinforced Plastic,Light + washable,TNAU - Tamil Nadu Agricultural University
+32,Footwear,Wet Mud Field,Rubber,"Slip, tear",High,1.0,High,EVA + PU Sole,"Anti-slip, washable",AgriTech NGO Case Studies
+33,Storage Drum,Humid,GI Drum,Rust + odor,Low,3.5,High,Powder-Coated Steel,Needs dry base,DST-AICTE Funded Projects Data
+34,Polyhouse Roof,Rain + Sun,LDPE Sheet,UV damage,Low,2.5,High,UV-Treated FRP Sheet,More stable in wind,Field Observations & Simulated Use Cases
+35,Animal Shed Floor,Wet + Cow Dung,Cement,"Cracking, slippery",Low,5.5,Medium,Polymer Concrete Mix,Slip-resistant,Krishi Vigyan Kendra Publications
+36,Fertilizer Bag,Field Use,LDPE,Tear in transit,High,0.6,Medium,PP Woven Sack,Reusable,TERI - The Energy and Resources Institute
+37,Grain Sack,Dry Storage,Cotton,Rodent damage,High,2.5,Medium,Jute with PP Inner,Rodent repellent lining,MatWeb - Material Property Database
+38,Tool Storage Box,Humid Area,Wood,"Mold, breakage",Low,3.5,Medium,ABS Plastic + Vents,Insect-safe,MatWeb - Material Property Database
+39,Portable Chair,Rain+Heat,Plastic,"Breaks, fade",High,2.0,High,FRP Frame Chair,Flexible frame,ICAR - Indian Council of Agricultural Research
+40,Harvesting Basket,Field,Bamboo,Breaks when wet,High,1.5,High,Jute Coated Woven Basket,Lighter & durable,Krishi Vigyan Kendra Publications
+41,Trolley Cover,Outdoor Field,Cotton,Tears in rain,High,1.5,High,HDPE Tarpaulin,Waterproof,DST-AICTE Funded Projects Data
+42,Bucket,Sun + Well Use,PVC,Cracks,High,2.5,High,Black HDPE,UV-proof,IIT Dhanbad - Rural Technology Research
+43,Spray Pump Tank,Sun + Liquid,Thin Plastic,Leaks,High,2.0,High,PP-Copolymer Tank,Chemical resistant,TNAU - Tamil Nadu Agricultural University
+44,Rope for Bundling,Outdoor Use,Cotton,Weak when wet,High,1.0,Medium,Coir-Poly Blend Rope,Eco + strong,ICAR - Indian Council of Agricultural Research
+45,Field Shelter Roof,Hot & Rainy,GI Sheet,"Rust, heat inside",Low,3.5,Medium,Coated Aluminium Sheet,Reflective,TERI - The Energy and Resources Institute
+46,Vermicompost Bin,Humid Outdoor,Plastic Barrel,UV + odor absorption,Low,2.5,High,UV Black PP Barrel,Better sealing,TERI - The Energy and Resources Institute
+47,Farm Gloves,Mud + Water,Cotton,"Shrinks, tears",High,0.8,High,Nitrile-Coated Fabric,"Washable, grippy",TERI - The Energy and Resources Institute
+48,Paddy Tray,Field Use,Thin plastic,Cracks after reuse,High,1.5,High,HDPE Seed Tray,"Reusable, stackable",Field Observations & Simulated Use Cases
+49,Solar Dryer Frame,Sunny,Mild Steel,Rust,Low,3.5,High,Aluminium Square Pipe,Lightweight,ICAR - Indian Council of Agricultural Research
+50,Tool Shed Door,Outdoor,Wood,Swelling + rot,Low,5.5,Medium,Galvanized Swing Door,Pest resistant,MatWeb - Material Property Database
+51,Grain Bin,Humid,HDPE,"UV cracks, fungus",High,2.0,High,UV-Stabilized HDPE,Keep covered from rain,BIRAC India - Rural Materials Report
+52,Water Storage Tank,Sunny & Dry,LDPE,UV degradation,Low,2.5,High,Black UV-HDPE,Longer life in sunlight,IIT Dhanbad - Rural Technology Research
+53,Plough Blade,Wet Soil,Mild Steel,Corrosion,High,3.0,Medium,Galvanized Steel,Low maintenance,MatWeb - Material Property Database
+54,Hand Tool (Spade),Humid & Mud,MS + Wood Handle,"Wood decay, rust",High,2.0,Medium,SS + Rubber handle,Easier grip,DST-AICTE Funded Projects Data
+55,Pipe,"Hot, Dry",PVC,Brittle cracks,High,2.0,Medium,CPVC,Heat-resistant,TNAU - Tamil Nadu Agricultural University
+56,Tool Handle,Rainy Season,Bamboo,Fungal attack,High,1.5,Medium,Fiber-reinforced Plastic,Light + washable,IIT Dhanbad - Rural Technology Research
+57,Footwear,Wet Mud Field,Rubber,"Slip, tear",High,1.0,High,EVA + PU Sole,"Anti-slip, washable",BIRAC India - Rural Materials Report
+58,Storage Drum,Humid,GI Drum,Rust + odor,Low,3.5,High,Powder-Coated Steel,Needs dry base,AgriTech NGO Case Studies
+59,Polyhouse Roof,Rain + Sun,LDPE Sheet,UV damage,Low,2.5,High,UV-Treated FRP Sheet,More stable in wind,Krishi Vigyan Kendra Publications
+60,Animal Shed Floor,Wet + Cow Dung,Cement,"Cracking, slippery",Low,5.5,Medium,Polymer Concrete Mix,Slip-resistant,AgriTech NGO Case Studies

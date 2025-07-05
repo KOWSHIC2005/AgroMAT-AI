@@ -80,25 +80,4 @@ if st.button("🔍 Predict Best Material"):
         mime="text/csv"
     )
 
-# ------------------------- VISUALIZATIONS ---------------------------- #
-st.markdown("---")
-st.subheader("📊 Material Recommendation Frequency")
-
-material_counts = df["Suggested Material"].value_counts()
-fig1, ax1 = plt.subplots()
-ax1.bar(material_counts.index, material_counts.values, color="green")
-ax1.set_xlabel("Material")
-ax1.set_ylabel("Frequency")
-ax1.set_title("Most Frequently Recommended Materials")
-st.pyplot(fig1)
-
-st.subheader("♻️ Eco Priority Distribution")
-
-eco_counts = df["Eco Priority"].value_counts()
-fig2, ax2 = plt.subplots()
-ax2.pie(eco_counts, labels=eco_counts.index, autopct="%1.1f%%", startangle=90, colors=["#a2d5c6", "#077b8a", "#d7263d"])
-ax2.axis("equal")
-st.pyplot(fig2)
-
-st.markdown("---")
-st.caption("🧠 Powered by Machine Learning • Built by Mamkutty (Materials Science + AI)")
+st.caption(" Built by Kowshic K T ")

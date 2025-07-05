@@ -25,24 +25,26 @@ y_encoded = target_encoder.transform(y)
 # Train the model
 model = DecisionTreeClassifier().fit(X, y_encoded)
 
-# Streamlit UI
+# ------------------------- UI STARTS HERE ---------------------------- #
+
 st.set_page_config(page_title="AgroMAT", page_icon="🌾")
-st.title("🌾 AgroMAT - Smart Material Recommender")
-st.markdown("👨‍🌾 Helping farmers choose durable, eco-friendly, and affordable materials for agriculture-related applications.")
+st.markdown("<h1 style='text-align: center; color: green;'>🌾 AgroMAT - புத்திசாலி மெட்டீரியல் பரிந்துரை கருவி</h1>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>👨‍🌾 Smart, Eco-friendly & Affordable Material Selection Tool for Farmers</h4>", unsafe_allow_html=True)
+st.markdown("---")
 
-# UI Inputs from user (based on unique values in dataset)
-app = st.selectbox("📦 Application", df["Application"].unique())
-env = st.selectbox("🌤️ Environment", df["Environment"].unique())
-curr = st.selectbox("🔩 Current Material", df["Current Material"].unique())
-fail = st.selectbox("💥 Failure Mode", df["Failure Mode"].unique())
-budget = st.selectbox("💰 Budget", df["Budget"].unique())
-life = st.slider("📅 Life Expectancy (years)", 0.0, 10.0, 2.0)
-eco = st.selectbox("♻️ Eco Priority", df["Eco Priority"].unique())
+st.markdown("### 📥 பயனர் உள்ளீடு / User Inputs")
 
-# Predict when button is clicked
-if st.button("🔍 Predict Material"):
+app = st.selectbox("📦 பயன்பாடு (Application)", df["Application"].unique())
+env = st.selectbox("🌤️ சூழ்நிலை (Environment)", df["Environment"].unique())
+curr = st.selectbox("🔩 தற்போதைய பொருள் (Current Material)", df["Current Material"].unique())
+fail = st.selectbox("💥 பாதிப்பு விதம் (Failure Mode)", df["Failure Mode"].unique())
+budget = st.selectbox("💰 செலவுத்திறன் (Budget)", df["Budget"].unique())
+life = st.slider("📅 ஆயுள் (வருடங்கள்) / Life Expectancy", 0.0, 10.0, 2.0)
+eco = st.selectbox("♻️ பசுமை முன்னிலை (Eco Priority)", df["Eco Priority"].unique())
 
-    # Prepare input data
+st.markdown("---")
+if st.button("🔍 பரிந்துரை பெறு / Get Recommendation"):
+
     input_data = {
         "Application": app,
         "Environment": env,
@@ -53,30 +55,29 @@ if st.button("🔍 Predict Material"):
         "Eco Priority": eco
     }
 
-    # ✅ Encode input safely
     encoded_input = []
     for col in X.columns:
         if col in label_encoders:
             encoded_input.append(label_encoders[col].transform([input_data[col]])[0])
         else:
-            encoded_input.append(input_data[col])  # For numeric columns like life
+            encoded_input.append(input_data[col])  # For numeric columns
 
-    # Predict
     pred = model.predict([encoded_input])[0]
     material = target_encoder.inverse_transform([pred])[0]
 
-    # Display result
-    st.success(f"✅ Recommended Material: **{material}**")
+    st.success(f"✅ பரிந்துரைக்கப்பட்ட பொருள் (Recommended Material): **{material}**")
 
-    # Prepare downloadable result
     result_dict = input_data.copy()
     result_dict["Suggested Material"] = material
     result_df = pd.DataFrame([result_dict])
 
-    # Download button
     st.download_button(
-        label="⬇️ Download Prediction as CSV",
+        label="⬇️ பரிந்துரை CSV ஆக பதிவிறக்க / Download as CSV",
         data=result_df.to_csv(index=False),
         file_name="AgroMAT_Prediction.csv",
         mime="text/csv"
     )
+
+st.markdown("---")
+st.markdown("🔬 <i>AgroMAT is designed by integrating Machine Learning with Materials Science, focusing on farmers' practical problems.</i>", unsafe_allow_html=True)
+st.markdown("🌱 <b>Developed with ❤️ by Mamkutty (Kongu Naadu)</b>", unsafe_allow_html=True)
